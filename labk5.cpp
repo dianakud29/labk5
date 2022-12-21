@@ -62,12 +62,12 @@ int main(){
 
     Fish fish[8];
     fish[0].init("fName1", 1, 1, 2.3, "meet", false, 0.3);
-    fish[2].init("fName2", 3, 4, 5.3, "meet", true, 2.3);
+    fish[2].init("fName2", 3, 4, 5.3, "meet", true, 2.9);
     fish[3].init("fName3", 1, 2, 8.3, "meet", false, 2.3);
-    fish[1].init("fName4", 1, 5, 4.3, "meet", true, 3.3);
+    fish[1].init("fName4", 1, 5, 4.3, "meet", true, 3.8);
     fish[4].init("fName5", 1, 3, 1.3, "meet", false, 1.3);
     fish[5].init("fName6", 1, 3, 1.3, "meet", false, 4.3);
-    fish[6].init("fName7", 1, 3, 1.3, "meet", true, 5.3);
+    fish[6].init("fName7", 1, 3, 1.3, "meet", true, 5.1);
     fish[7].init("fName8", 1, 3, 1.3, "meet", false, 3.3);
 
     Aquarium first_aquarium(33.5);
